@@ -1,3 +1,9 @@
+macro_f10: macro_f10{
+compatible = "zmk,behavior-macro";
+label = "macro_f10";
+#binding-cells = <0>;
+bindings = <&kp ESC>, <&kp LS(F10)>;
+};
 macro_paste_r: macro_paste_r{
 compatible = "zmk,behavior-macro";
 label = "macro_paste_r";
