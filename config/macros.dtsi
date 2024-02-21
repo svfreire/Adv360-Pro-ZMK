@@ -1,3 +1,9 @@
+macro_implementation: macro_implementation{
+compatible = "zmk,behavior-macro";
+label = "macro_implementation";
+#binding-cells = <0>;
+bindings = <&kp LC(LA(B))>;
+};
 macro_ins: macro_ins{
 compatible = "zmk,behavior-macro";
 label = "macro_ins";
