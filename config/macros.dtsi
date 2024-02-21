@@ -1,3 +1,15 @@
+macro_ins: macro_ins{
+compatible = "zmk,behavior-macro";
+label = "macro_ins";
+#binding-cells = <0>;
+bindings = <&kp LC(LS(INS))>;
+};
+macro_f6: macro_f6{
+compatible = "zmk,behavior-macro";
+label = "macro_f6";
+#binding-cells = <0>;
+bindings = <&kp LS(F6)>;
+};
 macro_f10: macro_f10{
 compatible = "zmk,behavior-macro";
 label = "macro_f10";
