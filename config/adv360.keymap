@@ -64,7 +64,7 @@
  &trans  &trans  &trans  &trans    &trans  &trans             &none                                                                            &none  &trans     &trans         &trans          &trans      &trans   &trans
  &trans  &trans  &trans  &trans    &trans  &trans             &none  &trans  &trans                          &kp ESC  &kp PRINTSCREEN          &none  &trans     &trans         &trans          &trans      &trans   &trans
  &trans  &trans  &trans  &trans    &trans  &trans                            &trans                           &trans                                  &trans  &kp LC(Z)  &macro_copy_r  &macro_paste_r  &macro_ins   &trans
- &trans  &trans  &trans  &kp UP  &kp DOWN                    &trans  &trans  &trans                  &macro_reformat          &kp DEL  &kp BACKSPACE           &kp LEFT      &kp RIGHT          &trans      &trans   &trans
+ &trans  &trans  &trans  &kp UP  &kp DOWN                    &trans  &trans  &trans                  &macro_reformat          &kp DEL  &kp BACKSPACE           &kp LEFT      &kp RIGHT       &kp LC(F)      &trans   &trans
             >;
         };
 
