@@ -1,3 +1,9 @@
+macro_reformat: macro_reformat{
+compatible = "zmk,behavior-macro";
+label = "macro_reformat";
+#binding-cells = <0>;
+bindings = <&kp LC(LA(L))>;
+};
 macro_implementation: macro_implementation{
 compatible = "zmk,behavior-macro";
 label = "macro_implementation";
