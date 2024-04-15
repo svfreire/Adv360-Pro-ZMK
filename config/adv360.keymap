@@ -60,11 +60,11 @@
 
         layer_fn {
             bindings = <
-          &kp F1   &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                       &mo 3  &kp F7         &kp F8             &kp F9         &kp F10          &kp F11          &kp F12
-          &trans   &trans  &trans  &trans  &trans  &trans            &trans                                                      &kp F5  &trans         &trans         &macro_ins          &trans  &kp PRINTSCREEN           &trans
-          &trans   &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans   &trans  &macro_f6  &trans  &macro_copy_r       &macro_cut_r  &macro_paste_r           &trans           &trans
-          &trans   &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                      &trans         &trans  &macro_select_all          &trans           &trans        &kp LC(F)
- &macro_reformat  &kp ESC  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &kp DEL   &kp BSPC                 &trans             &trans          &trans         &kp LGUI  &macro_reformat
+          &kp F1   &kp F2  &kp F3  &kp F4  &kp F5  &kp F6            &tog 1                                                      &mo 3  &kp F7         &kp F8             &kp F9         &kp F10          &kp F11          &kp F12
+          &trans   &trans  &trans  &trans  &trans  &trans            &trans                                                     &kp F5  &trans         &trans         &macro_ins          &trans  &kp PRINTSCREEN           &trans
+          &trans   &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &macro_f6  &trans  &macro_copy_r       &macro_cut_r  &macro_paste_r           &trans           &trans
+          &trans   &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                     &trans         &trans  &macro_select_all          &trans           &trans        &kp LC(F)
+ &macro_reformat  &kp ESC  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &trans     &trans                 &trans             &trans          &trans         &kp LGUI  &macro_reformat
             >;
         };
 
