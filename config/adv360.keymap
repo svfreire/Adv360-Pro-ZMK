@@ -44,7 +44,7 @@
    &kp TAB     &kp Q     &kp W      &kp E    &kp R   &kp T               &kp F5                                                            &macro_f10   &kp Y     &kp U     &kp I      &kp O     &kp P   &kp BSLH
   &kp CAPS     &kp A     &kp S      &kp D    &kp F   &kp G            &macro_f6  &kp LALT      &mo 2                     &mo 2    &kp DEL   &kp LC(Z)   &kp H     &kp J     &kp K      &kp L  &kp SEMI    &kp SQT
  &kp LSHFT     &kp Z     &kp X      &kp C    &kp V   &kp B                                 &kp PG_UP                  &kp HOME                          &kp N     &kp M    &kp UP  &kp GRAVE  &kp FSLH  &kp RSHFT
- &kp LCTRL  &kp LBKT  &kp RBKT  &kp COMMA  &kp DOT                     &kp BSPC   &kp DEL  &kp PG_DN                   &kp END  &kp ENTER   &kp SPACE          &kp LEFT  &kp DOWN  &kp RIGHT  &kp LGUI  &kp RCTRL
+ &kp LCTRL  &kp LBKT  &kp RBKT  &kp COMMA  &kp DOT                     &kp BSPC   &kp DEL  &kp PG_DN                   &kp END  &kp ENTER   &kp SPACE          &kp LEFT  &kp DOWN  &kp RIGHT   &kp ESC  &kp RCTRL
             >;
         };
 
@@ -64,7 +64,7 @@
           &trans   &trans  &trans  &trans  &trans  &trans            &trans                                                      &kp F5  &trans         &trans         &macro_ins          &trans  &kp PRINTSCREEN           &trans
           &trans   &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans   &trans  &macro_f6  &trans  &macro_copy_r       &macro_cut_r  &macro_paste_r           &trans           &trans
           &trans   &trans  &trans  &trans  &trans  &trans                            &trans                  &trans                      &trans         &trans  &macro_select_all          &trans           &trans        &kp LC(F)
- &macro_reformat  &kp ESC  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &kp DEL   &kp BSPC                 &trans             &trans          &trans          &kp ESC  &macro_reformat
+ &macro_reformat  &kp ESC  &trans  &trans  &trans                    &trans  &trans  &trans                  &trans  &kp DEL   &kp BSPC                 &trans             &trans          &trans         &kp LGUI  &macro_reformat
             >;
         };
 
