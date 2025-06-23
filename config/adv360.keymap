@@ -21,28 +21,37 @@
         };
     };
 
+    macros {
+        m_home: m_home {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_COMMAND &kp LEFT_ARROW>;
+            label = "M_HOME";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         ios_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL         &kp N1            &kp N2             &kp N3     &kp N4   &kp N5  &tog 3                                                      &mo 4      &kp N6  &kp N7  &kp N8        &kp N9           &kp N0                                  &kp MINUS
-&kp TAB           &kp Q             &kp W              &kp E      &kp R    &kp T   &none                                                       &none      &kp Y   &kp U   &kp I         &kp O            &kp P                                   &kp BSLH
-&kp CAPS          &kp A             &kp S              &kp D      &kp F    &kp G   &none     &kp LEFT_ALT  &mo 2          &mo 2     &kp DEL    &kp ESC    &kp H   &kp J   &kp K         &kp L            &kp SEMI                                &kp SQT
-&kp LSHFT         &kp Z             &kp X              &kp C      &kp V    &kp B                           &kp PG_UP      &kp HOME                        &kp N   &kp M   &kp UP_ARROW  &kp GRAVE        &kp FSLH                                &kp RSHFT
-&kp LEFT_COMMAND  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp DOT          &kp BSPC  &kp DEL       &kp PG_DN      &kp END   &kp ENTER  &kp SPACE          &kp UP  &kp DOWN      &kp RIGHT_ARROW  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp RIGHT_COMMAND
+&kp EQUAL         &kp N1            &kp N2             &kp N3     &kp N4   &kp N5  &tog 3                                                     &mo 4      &kp N6  &kp N7          &kp N8        &kp N9           &kp N0                                  &kp MINUS
+&kp TAB           &kp Q             &kp W              &kp E      &kp R    &kp T   &none                                                      &none      &kp Y   &kp U           &kp I         &kp O            &kp P                                   &kp BSLH
+&kp CAPS          &kp A             &kp S              &kp D      &kp F    &kp G   &none     &kp LEFT_ALT  &mo 2          &mo 2    &kp DEL    &kp ESC    &kp H   &kp J           &kp K         &kp L            &kp SEMI                                &kp SQT
+&kp LSHFT         &kp Z             &kp X              &kp C      &kp V    &kp B                           &kp PG_UP      &m_home                        &kp N   &kp M           &kp UP_ARROW  &kp GRAVE        &kp FSLH                                &kp RSHFT
+&kp LEFT_COMMAND  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp DOT          &kp BSPC  &kp DEL       &kp PG_DN      &kp END  &kp ENTER  &kp SPACE          &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &kp C_AC_DESKTOP_SHOW_ALL_APPLICATIONS  &kp RIGHT_COMMAND
             >;
         };
 
         linux_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL         &kp N1            &kp N2             &kp N3     &kp N4   &kp N5  &tog 3                                                      &mo 4      &kp N6  &kp N7  &kp N8        &kp N9           &kp N0    &kp MINUS
-&kp TAB           &kp Q             &kp W              &kp E      &kp R    &kp T   &none                                                       &none      &kp Y   &kp U   &kp I         &kp O            &kp P     &kp BSLH
-&kp CAPS          &kp A             &kp S              &kp D      &kp F    &kp G   &none     &kp LEFT_ALT  &mo 2          &mo 2     &kp DEL    &kp ESC    &kp H   &kp J   &kp K         &kp L            &kp SEMI  &kp SQT
-&kp LSHFT         &kp Z             &kp X              &kp C      &kp V    &kp B                           &kp PG_UP      &kp HOME                        &kp N   &kp M   &kp UP_ARROW  &kp GRAVE        &kp FSLH  &kp RSHFT
-&kp LEFT_CONTROL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp DOT          &kp BSPC  &kp DEL       &kp PG_DN      &kp END   &kp ENTER  &kp SPACE          &kp UP  &kp DOWN      &kp RIGHT_ARROW  &kp LGUI  &kp RIGHT_CONTROL
+&kp EQUAL         &kp N1            &kp N2             &kp N3     &kp N4   &kp N5  &tog 3                                                      &mo 4      &kp N6  &kp N7          &kp N8        &kp N9           &kp N0    &kp MINUS
+&kp TAB           &kp Q             &kp W              &kp E      &kp R    &kp T   &none                                                       &none      &kp Y   &kp U           &kp I         &kp O            &kp P     &kp BSLH
+&kp CAPS          &kp A             &kp S              &kp D      &kp F    &kp G   &none     &kp LEFT_ALT  &mo 2          &mo 2     &kp DEL    &kp ESC    &kp H   &kp J           &kp K         &kp L            &kp SEMI  &kp SQT
+&kp LSHFT         &kp Z             &kp X              &kp C      &kp V    &kp B                           &kp PG_UP      &kp HOME                        &kp N   &kp M           &kp UP_ARROW  &kp GRAVE        &kp FSLH  &kp RSHFT
+&kp LEFT_CONTROL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp DOT          &kp BSPC  &kp DEL       &kp PG_DN      &kp END   &kp ENTER  &kp SPACE          &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &kp LGUI  &kp RIGHT_CONTROL
             >;
         };
 
