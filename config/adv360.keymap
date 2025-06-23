@@ -50,11 +50,11 @@
         ios_fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 4                                        &mo 5      &kp F7  &kp F8     &kp F9     &kp F10    &kp F11          &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                         &none      &trans  &trans     &none      &trans     &kp PRINTSCREEN  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &kp BSPC  &kp RG(Z)  &trans  &kp RG(C)  &kp RG(X)  &kp RG(V)  &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                       &trans  &trans     &kp RG(A)  &trans     &trans           &kp RG(F)
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans    &trans             &trans     &trans     &trans     &trans           &kp RG(BACKSPACE)
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 4                                        &mo 5      &kp F7  &kp F8     &kp F9     &kp F10    &kp F11               &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans  &none                                         &none      &trans  &trans     &none      &trans     &kp LG(LS(NUMBER_4))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &kp BSPC  &kp RG(Z)  &trans  &kp RG(C)  &kp RG(X)  &kp RG(V)  &trans                &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                       &trans  &trans     &kp RG(A)  &trans     &trans                &kp RG(F)
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans    &trans             &trans     &trans     &trans     &trans                &kp RG(BACKSPACE)
             >;
         };
 
