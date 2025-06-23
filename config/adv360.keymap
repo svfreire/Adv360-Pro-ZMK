@@ -54,7 +54,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &none                                         &none      &trans  &trans     &none      &trans     &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &kp BSPC  &kp RG(Z)  &trans  &kp RG(C)  &kp RG(X)  &kp RG(V)  &trans   &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                       &trans  &trans     &kp RG(A)  &trans     &trans   &kp RG(F)
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans    &trans             &trans     &trans     &trans     &trans   &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans    &trans             &trans     &trans     &trans     &trans   &kp RG(BACKSPACE)
             >;
         };
 
