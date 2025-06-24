@@ -17,22 +17,22 @@
         linux_layer {
             display-name = "Base";
             bindings = <
-&kp EQUAL         &kp N1            &kp N2             &kp N3     &kp N4   &kp N5  &tog 2                                                      &mo 5      &kp N6  &kp N7          &kp N8        &kp N9           &kp N0    &kp MINUS
-&kp TAB           &kp Q             &kp W              &kp E      &kp R    &kp T   &none                                                       &none      &kp Y   &kp U           &kp I         &kp O            &kp P     &kp BSLH
-&kp CAPS          &kp A             &kp S              &kp D      &kp F    &kp G   &none     &kp LEFT_ALT  &mo 1          &mo 1     &kp DEL    &kp ESC    &kp H   &kp J           &kp K         &kp L            &kp SEMI  &kp SQT
-&kp LSHFT         &kp Z             &kp X              &kp C      &kp V    &kp B                           &kp PG_UP      &kp HOME                        &kp N   &kp M           &kp UP_ARROW  &kp GRAVE        &kp FSLH  &kp RSHFT
-&kp LEFT_CONTROL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp DOT          &kp BSPC  &kp DEL       &kp PG_DN      &kp END   &kp ENTER  &kp SPACE          &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &kp LGUI  &kp RIGHT_CONTROL
+&kp EQUAL         &kp N1            &kp N2             &kp N3     &kp N4   &kp N5  &tog 2                                                        &mo 5      &kp N6  &kp N7          &kp N8        &kp N9           &kp N0    &kp MINUS
+&kp TAB           &kp Q             &kp W              &kp E      &kp R    &kp T   &none                                                         &none      &kp Y   &kp U           &kp I         &kp O            &kp P     &kp BSLH
+&kp CAPS          &kp A             &kp S              &kp D      &kp F    &kp G   &kp LS(F6)  &kp LEFT_ALT  &mo 1          &mo 1     &kp DEL    &kp ESC    &kp H   &kp J           &kp K         &kp L            &kp SEMI  &kp SQT
+&kp LSHFT         &kp Z             &kp X              &kp C      &kp V    &kp B                             &kp PG_UP      &kp HOME                        &kp N   &kp M           &kp UP_ARROW  &kp GRAVE        &kp FSLH  &kp RSHFT
+&kp LEFT_CONTROL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp DOT          &kp BSPC    &kp DEL       &kp PG_DN      &kp END   &kp ENTER  &kp SPACE          &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &kp LGUI  &kp RIGHT_CONTROL
             >;
         };
 
         linux_fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 4                                        &mo 5      &kp F7  &kp F8     &kp F9          &kp F10    &kp F11          &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                         &none      &trans  &trans     &kp LS(INSERT)  &trans     &kp PRINTSCREEN  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &kp BSPC  &kp LC(Z)  &trans  &kp LC(C)  &kp LC(X)       &kp LC(V)  &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                       &trans  &trans     &kp LC(A)       &trans     &trans           &kp LC(F)
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans    &trans             &trans     &trans          &trans     &trans           &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 4                                               &mo 5      &kp F7  &kp F8     &kp F9          &kp F10    &kp F11          &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans  &none                                                &none      &trans  &trans     &kp LS(INSERT)  &trans     &kp PRINTSCREEN  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(L))  &trans  &trans      &trans  &kp BSPC  &kp LC(Z)  &trans  &kp LC(C)  &kp LC(X)       &kp LC(V)  &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans                         &trans      &trans                       &trans  &trans     &kp LC(A)       &trans     &trans           &kp LC(F)
+&trans  &trans  &trans  &trans  &trans          &trans         &trans  &trans      &trans  &trans    &trans             &trans     &trans          &trans     &trans           &trans
             >;
         };
 
