@@ -28,11 +28,11 @@
         linux_fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 4                                               &mo 5      &kp F7  &kp F8     &kp F9          &kp F10    &kp F11          &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                                &none      &trans  &trans     &kp LS(INSERT)  &trans     &kp PRINTSCREEN  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(L))  &trans  &trans      &trans  &kp BSPC  &kp LC(Z)  &trans  &kp LC(C)  &kp LC(X)       &kp LC(V)  &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans                         &trans      &trans                       &trans  &trans     &kp LC(A)       &trans     &trans           &kp LC(LS(F))
-&trans  &trans  &trans  &trans  &trans          &trans         &trans  &trans      &trans  &trans    &trans             &trans     &trans          &trans     &trans           &kp LC(F)
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 4                                               &mo 5      &kp F7     &kp F8         &kp F9          &kp F10    &kp F11          &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans  &none                                                &none      &kp LC(F)  &kp LS(LC(F))  &kp LS(INSERT)  &trans     &kp PRINTSCREEN  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LA(L))  &trans  &trans      &trans  &kp BSPC  &kp LC(Z)  &trans     &kp LC(C)      &kp LC(X)       &kp LC(V)  &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans                         &trans      &trans                       &trans     &trans         &kp LC(A)       &trans     &trans           &trans
+&trans  &trans  &trans  &trans  &trans          &trans         &trans  &trans      &trans  &trans    &trans                &trans         &trans          &trans     &trans           &trans
             >;
         };
 
@@ -50,11 +50,11 @@
         ios_fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 4                                        &mo 5      &kp F7  &kp F8     &kp F9     &kp F10    &kp F11               &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                         &none      &trans  &trans     &none      &trans     &kp LG(LS(NUMBER_4))  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &kp BSPC  &kp LC(Z)  &trans  &kp RG(C)  &kp RG(X)  &kp RG(V)  &trans                &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                       &trans  &trans     &kp RG(A)  &trans     &trans                &none
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans    &trans             &trans     &trans     &trans     &trans                &kp LS(F)
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 4                                        &mo 5      &kp F7     &kp F8         &kp F9     &kp F10    &kp F11               &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans  &none                                         &none      &kp LG(F)  &kp LG(LS(F))  &none      &trans     &kp LG(LS(NUMBER_4))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &kp BSPC  &kp LC(Z)  &trans     &kp RG(C)      &kp RG(X)  &kp RG(V)  &trans                &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                       &trans     &trans         &kp RG(A)  &trans     &trans                &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans    &trans                &trans         &trans     &trans     &trans                &trans
             >;
         };
 
