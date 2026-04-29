@@ -28,11 +28,11 @@
         ios_fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 4                                        &mo 5      &kp F7     &kp F8         &kp F9     &kp F10    &kp F11                   &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                         &none      &kp LG(F)  &kp LG(LS(R))  &none      &trans     &kp LG(LS(LC(NUMBER_4)))  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp BSPC  &kp RG(Z)  &trans     &kp RG(C)      &kp RG(X)  &kp RG(V)  &trans                    &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                       &trans     &trans         &kp RG(A)  &trans     &trans                    &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans    &trans                &trans         &trans     &trans     &trans                    &kp LA(LC(L))
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 4                                        &mo 5      &kp F7     &kp F8         &kp F9     &kp F10               &kp F11                   &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans  &none                                         &none      &kp LG(F)  &kp LG(LS(R))  &none      &kp LS(LG(NUMBER_4))  &kp LG(LS(LC(NUMBER_4)))  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp BSPC  &kp RG(Z)  &trans     &kp RG(C)      &kp RG(X)  &kp RG(V)             &trans                    &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                       &trans     &trans         &kp RG(A)  &trans                &trans                    &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans    &trans                &trans         &trans     &trans                &trans                    &kp LA(LC(L))
             >;
         };
 
