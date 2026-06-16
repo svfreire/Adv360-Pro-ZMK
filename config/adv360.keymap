@@ -18,7 +18,7 @@
             display-name = "Base";
             bindings = <
 &kp EQUAL  &kp N1            &kp N2             &kp N3     &kp N4   &kp N5  &tog 2                                                                            &mo 5       &kp N6  &kp N7          &kp N8        &kp N9           &kp N0        &kp MINUS
-&kp TAB    &kp Q             &kp W              &kp E      &kp R    &kp T   &none                                                                             &kp F5      &kp Y   &kp U           &kp I         &kp O            &kp P         &kp BSLH
+&kp TAB    &kp Q             &kp W              &kp E      &kp R    &kp T   &tog 4                                                                            &kp F5      &kp Y   &kp U           &kp I         &kp O            &kp P         &kp BSLH
 &kp CAPS   &kp A             &kp S              &kp D      &kp F    &kp G   &kp LS(F6)  &kp LEFT_ALT  &mo 1                   &mo 1                &kp DEL    &kp ESCAPE  &kp H   &kp J           &kp K         &kp L            &kp SEMI      &kp SQT
 &kp LSHFT  &kp Z             &kp X              &kp C      &kp V    &kp B                             &kp RG(UP_ARROW)        &kp RG(LEFT_ARROW)                          &kp N   &kp M           &kp UP_ARROW  &kp GRAVE        &kp FSLH      &kp RSHFT
 &kp RGUI   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp DOT          &kp BSPC    &kp DEL       &kp RG(DOWN_ARROW)      &kp RG(RIGHT_ARROW)  &kp ENTER  &kp SPACE           &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &kp LEFT_ALT  &kp RGUI
@@ -28,8 +28,8 @@
         ios_fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 4                                        &mo 5      &kp F7     &kp F8         &kp F9     &kp F10               &kp F11                   &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                         &none      &kp LG(F)  &kp LG(LS(R))  &kp LC(C)  &kp LS(LG(NUMBER_4))  &kp LG(LS(LC(NUMBER_4)))  &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &trans                                        &mo 5      &kp F7     &kp F8         &kp F9     &kp F10               &kp F11                   &kp F12
+&trans  &trans  &trans  &trans  &trans  &trans  &trans                                        &none      &kp LG(F)  &kp LG(LS(R))  &kp LC(C)  &kp LS(LG(NUMBER_4))  &kp LG(LS(LC(NUMBER_4)))  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp BSPC  &kp RG(Z)  &trans     &kp RG(C)      &kp RG(X)  &kp RG(V)             &trans                    &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                       &trans     &trans         &kp RG(A)  &trans                &trans                    &trans
 &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans    &trans                &trans         &trans     &trans                &trans                    &kp LA(LC(L))
@@ -40,7 +40,7 @@
             display-name = "Base";
             bindings = <
 &kp EQUAL         &kp N1            &kp N2             &kp N3     &kp N4   &kp N5  &trans                                                        &mo 5       &kp N6  &kp N7          &kp N8        &kp N9           &kp N0    &kp MINUS
-&kp TAB           &kp Q             &kp W              &kp E      &kp R    &kp T   &none                                                         &kp F5      &kp Y   &kp U           &kp I         &kp O            &kp P     &kp BSLH
+&kp TAB           &kp Q             &kp W              &kp E      &kp R    &kp T   &trans                                                        &kp F5      &kp Y   &kp U           &kp I         &kp O            &kp P     &kp BSLH
 &kp CAPS          &kp A             &kp S              &kp D      &kp F    &kp G   &kp LS(F6)  &kp LEFT_ALT  &mo 3          &mo 3     &kp DEL    &kp ESCAPE  &kp H   &kp J           &kp K         &kp L            &kp SEMI  &kp SQT
 &kp LSHFT         &kp Z             &kp X              &kp C      &kp V    &kp B                             &kp PG_UP      &kp HOME                         &kp N   &kp M           &kp UP_ARROW  &kp GRAVE        &kp FSLH  &kp RSHFT
 &kp LEFT_CONTROL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA  &kp DOT          &kp BSPC    &kp DEL       &kp PG_DN      &kp END   &kp ENTER  &kp SPACE           &kp LEFT_ARROW  &kp DOWN      &kp RIGHT_ARROW  &kp LGUI  &kp RIGHT_CONTROL
@@ -50,7 +50,7 @@
         linux_fn {
             display-name = "Fn";
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &tog 4                                        &mo 5      &kp F7     &kp F8         &kp F9          &kp F10    &kp F11          &kp F12
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &trans                                        &mo 5      &kp F7     &kp F8         &kp F9          &kp F10    &kp F11          &kp F12
 &trans  &trans  &trans  &trans  &trans  &trans  &trans                                        &none      &kp LC(F)  &kp LS(LC(R))  &kp LS(INSERT)  &trans     &kp PRINTSCREEN  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp BSPC  &kp LC(Z)  &trans     &kp LC(C)      &kp LC(X)       &kp LC(V)  &trans           &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                       &trans     &trans         &kp LC(A)       &trans     &trans           &trans
@@ -62,7 +62,7 @@
             display-name = "kp";
             bindings = <
 &kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                   &mo 5      &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                    &none      &kp Y   &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
+&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &trans                                                   &none      &kp Y   &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
 &kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
 &kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
 &mo 3      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0          &kp UP      &kp DOWN      &kp KP_DOT     &kp RBKT         &mo 3
